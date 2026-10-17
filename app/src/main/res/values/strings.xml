@@ -1,0 +1,309 @@
+<resources>
+    <string name="app_name">密码管理</string>
+    <string name="search_hint">搜索密码...</string>
+    <string name="add_password">添加密码</string>
+    <string name="edit_password">编辑密码</string>
+    <string name="delete_password">删除密码</string>
+    <string name="password_generator">密码生成器</string>
+    <string name="settings">设置</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="delete">删除</string>
+    <string name="copy">复制</string>
+    <string name="copy_account">复制账号</string>
+    <string name="copy_password">复制密码</string>
+    <string name="copy_all">复制全部</string>
+
+    <string name="detail_account_label">账号：</string>
+    <string name="detail_password_label">密码：</string>
+    <string name="detail_tag_label">标签：</string>
+    <string name="detail_website_label">网站/应用：</string>
+    <string name="detail_notes_label">备注：</string>
+
+    <string name="settings_title">设置</string>
+
+    <string name="section_security">安全设置</string>
+    <string name="section_appearance">外观</string>
+    <string name="section_data">数据管理</string>
+    <string name="section_other">其他</string>
+
+    <string name="biometric_unlock">生物识别解锁</string>
+    <string name="biometric_unlock_desc">使用指纹快速解锁，自动锁定后需主密码+指纹解锁</string>
+
+    <string name="login_biometric_2fa">登录双因素</string>
+    <string name="login_biometric_2fa_desc">解锁时需输入主密码并通过指纹</string>
+
+    <string name="two_factor">双因素认证</string>
+    <string name="two_factor_desc">使用动态验证码增强安全</string>
+
+    <string name="secure_screen">防截屏/录屏</string>
+    <string name="secure_screen_desc">开启后将拦截截屏与系统录屏</string>
+
+    <string name="password_view_auth">复制/显示/修改密码需验证</string>
+    <string name="password_view_auth_desc">开启后复制、显示和修改密码每3分钟需验证一次</string>
+
+    <string name="autofill_service">自动填充服务</string>
+    <string name="autofill_service_desc">在其他应用/网站一键填充账号密码</string>
+
+    <string name="change_master_password">修改主密码</string>
+    <string name="auto_lock">自动锁定</string>
+    <string name="auto_lock_desc">离开应用后自动锁定</string>
+
+    <string name="theme_mode">主题模式</string>
+    <string name="theme_color">主题颜色</string>
+    <string name="theme_color_blue">蓝色</string>
+    <string name="theme_color_green">绿色</string>
+    <string name="theme_color_purple">紫色</string>
+    <string name="theme_color_red">红色</string>
+    <string name="language">语言</string>
+    <string name="password_style">密码本样式</string>
+    <string name="password_style_simple">简约</string>
+    <string name="password_style_practical">实用</string>
+
+    <string name="follow_system">跟随系统</string>
+    <string name="light_mode">浅色</string>
+    <string name="dark_mode">深色</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+
+    <string name="export_data">导出数据</string>
+    <string name="import_data">导入数据</string>
+    <string name="email_backup">邮箱备份</string>
+    <string name="backup_email">备份邮箱</string>
+    <string name="email_backup_send">发送备份</string>
+    <string name="email_backup_save">保存邮箱</string>
+
+    <string name="share_password">分享密码</string>
+    <string name="select_all">全选/全不选</string>
+    <string name="toast_no_passwords_to_backup">暂无可备份的密码</string>
+    <string name="toast_select_at_least_one">请至少选择一条</string>
+    <string name="not_set">未设置</string>
+    <string name="toast_enter_backup_email">请输入备份邮箱</string>
+    <string name="toast_invalid_email">邮箱格式不正确</string>
+    <string name="toast_backup_email_saved">备份邮箱已保存</string>
+    <string name="toast_backup_email_sent">备份已发送，请查收邮箱</string>
+    <string name="toast_backup_email_failed">邮箱备份失败：%1$s</string>
+    <string name="toast_sending_backup">正在发送备份...</string>
+    <string name="toast_backup_skipped_reset">当前未解锁，无法进行邮箱备份，已直接重置</string>
+
+    <string name="backup_email_first_prompt_message">建议保存备份邮箱，便于忘记主密码时一键邮箱备份</string>
+
+    <string name="backup_then_delete">备份后删除</string>
+    <string name="delete_without_backup">直接删除</string>
+    <string name="backup_then_reset">备份后重置</string>
+    <string name="reset_without_backup">直接重置</string>
+    <string name="backup_failed_continue">备份失败：%1$s\n\n仍要继续删除吗？</string>
+    <string name="pre_reset_backup_message">建议在重置前通过邮箱备份一次。请输入备份邮箱与主密码以发送备份。</string>
+
+    <string name="timed_email_backup">定时邮箱备份</string>
+    <string name="timed_email_backup_off">关闭</string>
+    <string name="timed_email_backup_daily">每天</string>
+    <string name="timed_email_backup_weekly">每周</string>
+    <string name="toast_set_backup_email_first">请先设置备份邮箱</string>
+    <string name="toast_timed_email_backup_enabled">已开启定时邮箱备份：%1$s</string>
+    <string name="toast_timed_email_backup_disabled">已关闭定时邮箱备份</string>
+
+    <string name="clear_all_data">清除所有数据</string>
+    <string name="about">关于</string>
+
+    <string name="login_welcome_back">欢迎回来</string>
+    <string name="login_subtitle">请输入主密码解锁</string>
+    <string name="master_password">主密码</string>
+    <string name="unlock">解锁</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="cd_fingerprint_unlock">指纹解锁</string>
+
+    <string name="register_title">设置主密码</string>
+    <string name="register_subtitle">主密码用于加密您所有的密码数据，请务必牢记！</string>
+    <string name="hint_enter_master_password">请输入主密码</string>
+    <string name="hint_confirm_master_password">请确认主密码</string>
+    <string name="helper_password_hint_optional">可选，用于帮助您回忆密码</string>
+    <string name="hint_password_hint_optional">密码提示（可选）</string>
+    <string name="register_confirm">确认设置</string>
+
+    <string name="main_empty_state">暂无密码记录\n点击右下角 + 添加</string>
+    <string name="cd_add_password">添加密码</string>
+
+    <string name="add_edit_hint_title_required">标题 *</string>
+    <string name="add_edit_hint_username_required">用户名/账号 *</string>
+    <string name="add_edit_hint_password_required">密码 *</string>
+    <string name="add_edit_generate_random_password">生成随机密码</string>
+    <string name="target_type">应用/网站</string>
+    <string name="target_type_app">应用</string>
+    <string name="target_type_website">网站</string>
+    <string name="pick_app">选择应用</string>
+    <string name="app">应用</string>
+    <string name="operation_guide_target_selection">选择【应用】后点“选择应用”从本机应用列表中选；选择【网站】则填写网址（可不含 https://）。</string>
+    <string name="add_edit_hint_website">网站</string>
+    <string name="add_edit_hint_category">分类</string>
+    <string name="add_edit_hint_notes">备注</string>
+
+    <string name="generator_tap_to_generate">点击生成密码</string>
+    <string name="refresh">刷新</string>
+    <string name="generator_password_length">密码长度</string>
+    <string name="generator_include_characters">包含字符</string>
+    <string name="generator_uppercase">大写字母 (A-Z)</string>
+    <string name="generator_lowercase">小写字母 (a-z)</string>
+    <string name="generator_digits">数字 (0-9)</string>
+    <string name="generator_special_symbols">特殊符号 (!@#$)</string>
+
+    <string name="placeholder_title">标题</string>
+    <string name="placeholder_username">用户名</string>
+    <string name="placeholder_category">分类</string>
+
+    <string name="category_bank">银行</string>
+    <string name="category_social">社交</string>
+    <string name="category_shopping">购物</string>
+    <string name="category_email">邮箱</string>
+    <string name="category_work">工作</string>
+    <string name="category_game">游戏</string>
+    <string name="category_other">其他</string>
+
+    <string name="error_enter_title">请输入标题</string>
+    <string name="error_enter_username">请输入用户名</string>
+    <string name="error_enter_password">请输入密码</string>
+    <string name="error_select_app">请选择应用</string>
+    <string name="toast_save_success">保存成功</string>
+
+    <string name="autofill_enable_title">启用自动填充</string>
+    <string name="autofill_enable_message">启用后，当您在其他应用中登录时，系统会提示使用本应用填充用户名和密码。\n\n请在接下来的设置页面中选择「密码管理」作为自动填充服务。</string>
+    <string name="go_settings">去设置</string>
+    <string name="autofill_search_hint">请在设置中搜索「自动填充」</string>
+    <string name="cannot_open_settings">无法打开设置</string>
+    <string name="autofill_requires_android8">自动填充需要 Android 8.0 或更高版本</string>
+
+    <string name="current_master_password">当前主密码</string>
+    <string name="new_master_password_min6">新主密码（至少6位）</string>
+    <string name="confirm_new_master_password">确认新主密码</string>
+    <string name="new_password_hint_optional_label">新的密码提示（可选）</string>
+
+    <string name="error_enter_current_master_password">请输入当前主密码</string>
+    <string name="error_enter_new_master_password">请输入新主密码</string>
+    <string name="error_new_master_password_min6">新主密码至少6位</string>
+    <string name="error_password_mismatch">两次输入不一致</string>
+    <string name="error_current_master_password_incorrect">当前主密码错误</string>
+
+    <string name="toast_change_failed_crypto">修改失败：数据解密/加密错误</string>
+    <string name="toast_change_failed_hash">修改失败：主密码哈希生成失败</string>
+    <string name="toast_master_password_updated">主密码已更新</string>
+
+    <string name="auto_lock_time_title">自动锁定时间</string>
+    <string name="auto_lock_1m">1分钟</string>
+    <string name="auto_lock_5m">5分钟</string>
+    <string name="auto_lock_15m">15分钟</string>
+    <string name="auto_lock_30m">30分钟</string>
+    <string name="auto_lock_1h">1小时</string>
+    <string name="toast_set_to">已设置为%1$s</string>
+
+    <string name="toast_copied_to_clipboard">已复制到剪贴板</string>
+
+    <string name="toast_load_failed">加载数据失败</string>
+    <string name="toast_password_copied_auto_clear">密码已复制，30秒后自动清除</string>
+    <string name="toast_open_target_empty">请先填写网站/应用</string>
+    <string name="toast_open_target_failed">无法打开目标</string>
+    <string name="toast_decrypt_failed">解密失败</string>
+    <string name="toast_deleted">已删除</string>
+
+    <string name="dialog_delete_title">确认删除</string>
+    <string name="dialog_delete_message">确定要删除 “%1$s” 吗？</string>
+
+    <string name="autofill_unlock_title">解锁以填充</string>
+    <string name="autofill_unlock_subtitle">输入主密码后为当前页面填充</string>
+
+    <string name="error_enter_master_password">请输入主密码</string>
+    <string name="toast_password_incorrect">密码错误</string>
+
+    <string name="totp_code_6_digits">验证码（6位）</string>
+    <string name="totp_prompt_message">请输入认证器App中的6位验证码</string>
+    <string name="verify">验证</string>
+    <string name="error_enter_totp_code">请输入验证码</string>
+    <string name="toast_totp_decrypt_failed">验证失败：密钥解密错误</string>
+    <string name="error_totp_incorrect">验证码错误</string>
+
+    <string name="toast_login_success">登录成功</string>
+
+    <string name="password_hint_title">密码提示</string>
+    <string name="password_hint_message">您设置的密码提示是：\n\n“%1$s”\n\n希望这能帮助您回忆起密码。</string>
+    <string name="password_hint_positive">我想起来了</string>
+    <string name="password_hint_negative">还是想不起来</string>
+
+    <string name="forgot_password_title">忘记密码</string>
+    <string name="reset_options_message">由于您的密码数据是加密存储的，忘记主密码后无法恢复已保存的密码。\n\n您可以选择重置应用，这将清除所有数据并重新设置主密码。</string>
+    <string name="reset_app">重置应用</string>
+
+    <string name="reset_confirm_title">⚠️ 确认重置</string>
+    <string name="reset_confirm_message">此操作将：\n\n• 删除所有已保存的密码\n• 清除主密码设置\n• 恢复到初始状态\n\n此操作不可撤销！确定要继续吗？</string>
+    <string name="confirm_reset">确定重置</string>
+
+    <string name="resetting">正在重置...</string>
+    <string name="reset_success">重置成功</string>
+    <string name="reset_failed">重置失败</string>
+
+    <string name="biometric_title">指纹解锁</string>
+    <string name="biometric_subtitle">使用指纹解锁密码管理</string>
+    <string name="biometric_subtitle_2fa">请验证指纹完成解锁</string>
+    <string name="biometric_use_password">使用密码</string>
+    <string name="biometric_login_once">请先使用主密码登录一次</string>
+    <string name="biometric_auth_failed">认证失败：%1$s</string>
+
+    <string name="toast_biometric_enabled">已启用生物识别</string>
+    <string name="toast_biometric_disabled">已关闭生物识别</string>
+    <string name="toast_password_style_set">已切换为%1$s</string>
+    <string name="toast_biometric_2fa_enabled">已启用登录双因素</string>
+    <string name="toast_biometric_2fa_disabled">已关闭登录双因素</string>
+    <string name="biometric_no_hardware">设备不支持生物识别</string>
+    <string name="biometric_hw_unavailable">生物识别硬件不可用</string>
+    <string name="biometric_not_enrolled">请先在系统设置中录入指纹</string>
+    <string name="biometric_enable_failed">无法启用生物识别</string>
+
+    <string name="toast_not_unlocked_cannot_export">当前未解锁，无法导出</string>
+    <string name="toast_export_success">导出成功</string>
+    <string name="toast_export_failed">导出失败：%1$s</string>
+    <string name="toast_get_data_failed">获取数据失败：%1$s</string>
+    <string name="toast_import_failed">导入失败：%1$s</string>
+    <string name="toast_import_success_count">导入成功，共 %1$d 条</string>
+    <string name="toast_file_no_data">文件中没有数据</string>
+
+    <string name="backup_master_password">备份主密码</string>
+    <string name="import_encrypted_backup">导入加密备份</string>
+    <string name="import_action">导入</string>
+    <string name="error_enter_backup_master_password">请输入备份主密码</string>
+    <string name="import_failed">导入失败</string>
+
+    <string name="toast_all_data_cleared">所有数据已清除</string>
+    <string name="toast_clear_failed">清除失败：%1$s</string>
+
+    <string name="clear_all_data_message">确定要删除所有密码数据吗？此操作不可恢复！</string>
+
+    <string name="toast_save_data_failed">保存数据失败：%1$s</string>
+
+    <string name="encrypt_failed">加密失败</string>
+    <string name="output_stream_open_failed">无法打开输出流</string>
+    <string name="error_backup_master_password_incorrect_or_corrupt">备份主密码错误或文件损坏</string>
+
+    <string name="two_factor_enable_title">启用双因素认证</string>
+    <string name="two_factor_disable_title">关闭双因素认证</string>
+    <string name="enable">启用</string>
+    <string name="disable">关闭</string>
+    <string name="copy_secret">复制密钥</string>
+    <string name="toast_secret_copied">已复制密钥</string>
+    <string name="toast_not_unlocked_cannot_enable_two_factor">当前未解锁，无法启用</string>
+    <string name="two_factor_setup_message">在认证器App（如 Google Authenticator）中添加账号，然后输入6位验证码完成绑定。\n\n密钥（可复制）：</string>
+    <string name="toast_two_factor_enable_encrypt_failed">启用失败：加密错误</string>
+    <string name="toast_two_factor_enabled">已启用双因素认证</string>
+    <string name="toast_two_factor_disable_decrypt_failed">关闭失败：解密错误</string>
+    <string name="toast_two_factor_disabled">已关闭双因素认证</string>
+
+    <string name="toast_master_password_encrypt_failed">密码加密失败</string>
+    <string name="toast_save_failed_retry">保存失败，请重试</string>
+    <string name="toast_master_password_set_success">主密码设置成功</string>
+
+    <string name="autofill_locked_title">解锁密码库</string>
+    <string name="autofill_locked_subtitle">输入主密码后填充</string>
+    <string name="autofill_default_title">账号</string>
+
+    <string name="about_message">密码管理
+
+本地密码管理工具（开发验证版）</string>
+</resources>

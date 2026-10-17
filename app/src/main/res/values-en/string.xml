@@ -1,0 +1,307 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <string name="search_hint">Search passwords...</string>
+    <string name="add_password">Add Password</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="delete_password">Delete Password</string>
+    <string name="password_generator">Password Generator</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="copy_account">Copy account</string>
+    <string name="copy_password">Copy password</string>
+    <string name="copy_all">Copy all</string>
+
+    <string name="detail_account_label">Account:</string>
+    <string name="detail_password_label">Password:</string>
+    <string name="detail_tag_label">Tag:</string>
+    <string name="detail_website_label">Website/App:</string>
+    <string name="detail_notes_label">Notes:</string>
+
+    <string name="settings_title">Settings</string>
+
+    <string name="section_security">Security</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_data">Data</string>
+    <string name="section_other">Other</string>
+
+    <string name="biometric_unlock">Biometric Unlock</string>
+    <string name="biometric_unlock_desc">Unlock quickly with fingerprint</string>
+
+    <string name="login_biometric_2fa">Login 2-step</string>
+    <string name="login_biometric_2fa_desc">Require master password and fingerprint to unlock</string>
+
+    <string name="two_factor">Two-Factor Authentication</string>
+    <string name="two_factor_desc">Enhance security with a one-time code</string>
+
+    <string name="secure_screen">Secure screen</string>
+    <string name="secure_screen_desc">Block screenshots and screen recording</string>
+
+    <string name="password_view_auth">Verify to copy/show/edit passwords</string>
+    <string name="password_view_auth_desc">After enabling, verify once every 3 minutes</string>
+
+    <string name="autofill_service">Autofill Service</string>
+    <string name="autofill_service_desc">Fill usernames and passwords in other apps/websites</string>
+
+    <string name="change_master_password">Change Master Password</string>
+    <string name="auto_lock">Auto Lock</string>
+    <string name="auto_lock_desc">Lock automatically after leaving the app</string>
+
+    <string name="theme_mode">Theme Mode</string>
+    <string name="theme_color">Theme color</string>
+    <string name="theme_color_blue">Blue</string>
+    <string name="theme_color_green">Green</string>
+    <string name="theme_color_purple">Purple</string>
+    <string name="theme_color_red">Red</string>
+    <string name="language">Language</string>
+    <string name="password_style">Vault style</string>
+    <string name="password_style_simple">Simple</string>
+    <string name="password_style_practical">Practical</string>
+
+    <string name="follow_system">Follow system</string>
+    <string name="light_mode">Light</string>
+    <string name="dark_mode">Dark</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+
+    <string name="export_data">Export Data</string>
+    <string name="import_data">Import Data</string>
+    <string name="email_backup">Email Backup</string>
+    <string name="backup_email">Backup email</string>
+    <string name="email_backup_send">Send backup</string>
+    <string name="email_backup_save">Save email</string>
+
+    <string name="share_password">Share passwords</string>
+    <string name="select_all">Select all / none</string>
+    <string name="toast_no_passwords_to_backup">No passwords to back up</string>
+    <string name="toast_select_at_least_one">Please select at least one</string>
+    <string name="not_set">Not set</string>
+    <string name="toast_enter_backup_email">Please enter a backup email</string>
+    <string name="toast_invalid_email">Invalid email format</string>
+    <string name="toast_backup_email_saved">Backup email saved</string>
+    <string name="toast_backup_email_sent">Backup sent. Please check your inbox</string>
+    <string name="toast_backup_email_failed">Email backup failed: %1$s</string>
+    <string name="toast_sending_backup">Sending backup...</string>
+    <string name="toast_backup_skipped_reset">Not unlocked, email backup skipped. Resetting now.</string>
+
+    <string name="backup_email_first_prompt_message">Save a backup email to enable one-tap email backup if you forget your master password.</string>
+
+    <string name="backup_then_delete">Backup &amp; delete</string>
+    <string name="delete_without_backup">Delete without backup</string>
+    <string name="backup_then_reset">Backup &amp; reset</string>
+    <string name="reset_without_backup">Reset without backup</string>
+    <string name="backup_failed_continue">Backup failed: %1$s\n\nContinue deleting anyway?</string>
+    <string name="pre_reset_backup_message">We recommend emailing a backup before resetting. Enter the backup email and master password to send it.</string>
+
+    <string name="timed_email_backup">Scheduled Email Backup</string>
+    <string name="timed_email_backup_off">Off</string>
+    <string name="timed_email_backup_daily">Daily</string>
+    <string name="timed_email_backup_weekly">Weekly</string>
+    <string name="toast_set_backup_email_first">Please set a backup email first</string>
+    <string name="toast_timed_email_backup_enabled">Scheduled email backup enabled: %1$s</string>
+    <string name="toast_timed_email_backup_disabled">Scheduled email backup disabled</string>
+
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="about">About</string>
+
+    <string name="login_welcome_back">Welcome back</string>
+    <string name="login_subtitle">Enter your master password to unlock</string>
+    <string name="master_password">Master password</string>
+    <string name="unlock">Unlock</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="cd_fingerprint_unlock">Fingerprint unlock</string>
+
+    <string name="register_title">Set a master password</string>
+    <string name="register_subtitle">The master password encrypts all your data. Please keep it safe!</string>
+    <string name="hint_enter_master_password">Enter master password</string>
+    <string name="hint_confirm_master_password">Confirm master password</string>
+    <string name="helper_password_hint_optional">Optional, helps you remember your password</string>
+    <string name="hint_password_hint_optional">Password hint (optional)</string>
+    <string name="register_confirm">Confirm</string>
+
+    <string name="main_empty_state">No passwords yet\nTap + to add one</string>
+    <string name="cd_add_password">Add password</string>
+
+    <string name="add_edit_hint_title_required">Title *</string>
+    <string name="add_edit_hint_username_required">Username/Account *</string>
+    <string name="add_edit_hint_password_required">Password *</string>
+    <string name="add_edit_generate_random_password">Generate random password</string>
+    <string name="target_type">App/Website</string>
+    <string name="target_type_app">App</string>
+    <string name="target_type_website">Website</string>
+    <string name="pick_app">Pick app</string>
+    <string name="app">App</string>
+    <string name="operation_guide_target_selection">choose App then tap “Pick app” to select from installed apps; choose Website to enter a URL (https:// optional).</string>
+    <string name="add_edit_hint_website">Website</string>
+    <string name="add_edit_hint_category">Category</string>
+    <string name="add_edit_hint_notes">Notes</string>
+
+    <string name="generator_tap_to_generate">Tap to generate a password</string>
+    <string name="refresh">Refresh</string>
+    <string name="generator_password_length">Password length</string>
+    <string name="generator_include_characters">Include characters</string>
+    <string name="generator_uppercase">Uppercase (A-Z)</string>
+    <string name="generator_lowercase">Lowercase (a-z)</string>
+    <string name="generator_digits">Digits (0-9)</string>
+    <string name="generator_special_symbols">Symbols (!@#$)</string>
+
+    <string name="placeholder_title">Title</string>
+    <string name="placeholder_username">Username</string>
+    <string name="placeholder_category">Category</string>
+
+    <string name="category_bank">Banking</string>
+    <string name="category_social">Social</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_email">Email</string>
+    <string name="category_work">Work</string>
+    <string name="category_game">Games</string>
+    <string name="category_other">Other</string>
+
+    <string name="error_enter_title">Please enter a title</string>
+    <string name="error_enter_username">Please enter a username</string>
+    <string name="error_enter_password">Please enter password</string>
+    <string name="error_select_app">Please pick an app</string>
+    <string name="toast_save_success">Saved</string>
+
+    <string name="autofill_enable_title">Enable Autofill</string>
+    <string name="autofill_enable_message">After enabling, when you log in to other apps, the system can prompt to fill usernames and passwords from this app.\n\nOn the next screen, select this app as your autofill service.</string>
+    <string name="go_settings">Open settings</string>
+    <string name="autofill_search_hint">Search for “Autofill” in Settings</string>
+    <string name="cannot_open_settings">Unable to open Settings</string>
+    <string name="autofill_requires_android8">Autofill requires Android 8.0 or above</string>
+
+    <string name="current_master_password">Current master password</string>
+    <string name="new_master_password_min6">New master password (at least 6 characters)</string>
+    <string name="confirm_new_master_password">Confirm new master password</string>
+    <string name="new_password_hint_optional_label">New password hint (optional)</string>
+
+    <string name="error_enter_current_master_password">Please enter the current master password</string>
+    <string name="error_enter_new_master_password">Please enter a new master password</string>
+    <string name="error_new_master_password_min6">New master password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_current_master_password_incorrect">Current master password is incorrect</string>
+
+    <string name="toast_change_failed_crypto">Failed to change: decrypt/encrypt error</string>
+    <string name="toast_change_failed_hash">Failed to change: could not generate password hash</string>
+    <string name="toast_master_password_updated">Master password updated</string>
+
+    <string name="auto_lock_time_title">Auto-lock time</string>
+    <string name="auto_lock_1m">1 minute</string>
+    <string name="auto_lock_5m">5 minutes</string>
+    <string name="auto_lock_15m">15 minutes</string>
+    <string name="auto_lock_30m">30 minutes</string>
+    <string name="auto_lock_1h">1 hour</string>
+    <string name="toast_set_to">Set to %1$s</string>
+
+    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
+
+    <string name="toast_load_failed">Failed to load data</string>
+    <string name="toast_password_copied_auto_clear">Password copied. Clipboard will clear in 30 seconds</string>
+    <string name="toast_open_target_empty">Please set Website/App first</string>
+    <string name="toast_open_target_failed">Unable to open target</string>
+    <string name="toast_decrypt_failed">Decryption failed</string>
+    <string name="toast_deleted">Deleted</string>
+
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Delete “%1$s”?</string>
+
+    <string name="autofill_unlock_title">Unlock to fill</string>
+    <string name="autofill_unlock_subtitle">Enter master password to fill this page</string>
+
+    <string name="error_enter_master_password">Please enter the master password</string>
+    <string name="toast_password_incorrect">Incorrect password</string>
+
+    <string name="totp_code_6_digits">One-time code (6 digits)</string>
+    <string name="totp_prompt_message">Enter the 6-digit code from your authenticator app</string>
+    <string name="verify">Verify</string>
+    <string name="error_enter_totp_code">Please enter the code</string>
+    <string name="toast_totp_decrypt_failed">Verification failed: could not decrypt secret</string>
+    <string name="error_totp_incorrect">Incorrect code</string>
+
+    <string name="toast_login_success">Signed in</string>
+
+    <string name="password_hint_title">Password hint</string>
+    <string name="password_hint_message">Your password hint is:\n\n“%1$s”\n\nHope this helps you remember it.</string>
+    <string name="password_hint_positive">Got it</string>
+    <string name="password_hint_negative">Still can’t remember</string>
+
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="reset_options_message">Your data is stored encrypted. If you forget the master password, saved passwords cannot be recovered.\n\nYou can reset the app, which clears all data and lets you set a new master password.</string>
+    <string name="reset_app">Reset app</string>
+
+    <string name="reset_confirm_title">Confirm reset</string>
+    <string name="reset_confirm_message">This will:\n\n• Delete all saved passwords\n• Clear master password settings\n• Restore initial state\n\nThis cannot be undone. Continue?</string>
+    <string name="confirm_reset">Reset</string>
+
+    <string name="resetting">Resetting...</string>
+    <string name="reset_success">Reset completed</string>
+    <string name="reset_failed">Reset failed</string>
+
+    <string name="biometric_title">Fingerprint unlock</string>
+    <string name="biometric_subtitle">Use fingerprint to unlock</string>
+    <string name="biometric_subtitle_2fa">Verify fingerprint to unlock</string>
+    <string name="biometric_use_password">Use password</string>
+    <string name="biometric_login_once">Please sign in once with the master password first</string>
+    <string name="biometric_auth_failed">Authentication failed: %1$s</string>
+
+    <string name="toast_biometric_enabled">Biometrics enabled</string>
+    <string name="toast_biometric_disabled">Biometrics disabled</string>
+    <string name="toast_password_style_set">Switched to %1$s</string>
+    <string name="toast_biometric_2fa_enabled">Login 2-step enabled</string>
+    <string name="toast_biometric_2fa_disabled">Login 2-step disabled</string>
+    <string name="biometric_no_hardware">This device doesn’t support biometrics</string>
+    <string name="biometric_hw_unavailable">Biometric hardware unavailable</string>
+    <string name="biometric_not_enrolled">Please enroll a fingerprint in system settings</string>
+    <string name="biometric_enable_failed">Unable to enable biometrics</string>
+
+    <string name="toast_not_unlocked_cannot_export">Unlock required to export</string>
+    <string name="toast_export_success">Exported</string>
+    <string name="toast_export_failed">Export failed: %1$s</string>
+    <string name="toast_get_data_failed">Failed to load data: %1$s</string>
+    <string name="toast_import_failed">Import failed: %1$s</string>
+    <string name="toast_import_success_count">Imported %1$d items</string>
+    <string name="toast_file_no_data">No data in file</string>
+
+    <string name="backup_master_password">Backup password</string>
+    <string name="import_encrypted_backup">Import encrypted backup</string>
+    <string name="import_action">Import</string>
+    <string name="error_enter_backup_master_password">Please enter the backup password</string>
+    <string name="import_failed">Import failed</string>
+
+    <string name="toast_all_data_cleared">All data cleared</string>
+    <string name="toast_clear_failed">Clear failed: %1$s</string>
+
+    <string name="clear_all_data_message">Delete all saved password data? This cannot be undone.</string>
+
+    <string name="toast_save_data_failed">Failed to save data: %1$s</string>
+
+    <string name="encrypt_failed">Encryption failed</string>
+    <string name="output_stream_open_failed">Couldn’t open output stream</string>
+    <string name="error_backup_master_password_incorrect_or_corrupt">Backup password is incorrect or the file is corrupted</string>
+
+    <string name="two_factor_enable_title">Enable two-factor authentication</string>
+    <string name="two_factor_disable_title">Disable two-factor authentication</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="copy_secret">Copy secret</string>
+    <string name="toast_secret_copied">Secret copied</string>
+    <string name="toast_not_unlocked_cannot_enable_two_factor">Unlock required to enable</string>
+    <string name="two_factor_setup_message">Add this account in your authenticator app (e.g., Google Authenticator), then enter the 6-digit code to finish setup.\n\nSecret (copyable):</string>
+    <string name="toast_two_factor_enable_encrypt_failed">Enable failed: encryption error</string>
+    <string name="toast_two_factor_enabled">Two-factor authentication enabled</string>
+    <string name="toast_two_factor_disable_decrypt_failed">Disable failed: decryption error</string>
+    <string name="toast_two_factor_disabled">Two-factor authentication disabled</string>
+
+    <string name="toast_master_password_encrypt_failed">Failed to encrypt password</string>
+    <string name="toast_save_failed_retry">Save failed, please try again</string>
+    <string name="toast_master_password_set_success">Master password set</string>
+
+    <string name="autofill_locked_title">Unlock password vault</string>
+    <string name="autofill_locked_subtitle">Enter master password to fill</string>
+    <string name="autofill_default_title">Account</string>
+
+    <string name="about_message">Password Manager v1.0\n\nBy Baiyv</string>
+</resources>
