@@ -36,7 +36,7 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-        <!-- ��ȫ���� -->
+        <!-- 安全设置 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- ����ʶ����� -->
+                <!-- 生物识别解锁 -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- ˫������֤ -->
+                <!-- 双因素认证 -->
                 <LinearLayout
                     android:id="@+id/layoutTwoFactor"
                     android:layout_width="match_parent"
@@ -322,7 +322,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- �޸������� -->
+                <!-- 修改主密码 -->
                 <LinearLayout
                     android:id="@+id/layoutChangePassword"
                     android:layout_width="match_parent"
@@ -362,7 +362,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- �Զ����� -->
+                <!-- 自动锁定 -->
                 <LinearLayout
                     android:id="@+id/layoutAutoLock"
                     android:layout_width="match_parent"
@@ -416,7 +416,7 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- ��� -->
+        <!-- 外观 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -625,7 +625,7 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- ���ݹ��� -->
+        <!-- 数据管理 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -648,7 +648,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- �������� -->
+                <!-- 导出数据 -->
                 <LinearLayout
                     android:id="@+id/layoutExport"
                     android:layout_width="match_parent"
@@ -688,7 +688,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- ���䱸�� -->
+                <!-- 邮箱备份 -->
                 <LinearLayout
                     android:id="@+id/layoutEmailBackup"
                     android:layout_width="match_parent"
@@ -738,7 +738,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- ѡ�񱸷� -->
+                <!-- 选择备份 -->
                 <LinearLayout
                     android:id="@+id/layoutSelectiveEmailBackup"
                     android:layout_width="match_parent"
@@ -778,7 +778,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- ��ʱ���䱸�� -->
+                <!-- 定时邮箱备份 -->
                 <LinearLayout
                     android:id="@+id/layoutTimedEmailBackup"
                     android:layout_width="match_parent"
@@ -828,7 +828,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- �������� -->
+                <!-- 导入数据 -->
                 <LinearLayout
                     android:id="@+id/layoutImport"
                     android:layout_width="match_parent"
@@ -868,7 +868,7 @@
                     android:background="@color/divider"
                     android:layout_marginStart="56dp" />
 
-                <!-- ������� -->
+                <!-- 清除数据 -->
                 <LinearLayout
                     android:id="@+id/layoutClearData"
                     android:layout_width="match_parent"
@@ -906,7 +906,7 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- ���� -->
+        <!-- 其他 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

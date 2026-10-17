@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- �������⣨��ActionBar�� -->
+    <!-- 基础主题（带ActionBar） -->
     <style name="Theme.PasswordManager" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">?attr/colorPrimary</item>
@@ -14,7 +14,7 @@
         <item name="android:windowBackground">@color/background</item>
     </style>
 
-    <!-- ��ActionBar���⣨�������Զ���Toolbar��ҳ�棩 -->
+    <!-- 无ActionBar主题（用于有自定义Toolbar的页面） -->
     <style name="Theme.PasswordManager.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">?attr/colorPrimary</item>
@@ -28,7 +28,7 @@
         <item name="android:windowBackground">@color/background</item>
     </style>
 
-    <!-- Splashҳ������ -->
+    <!-- Splash页面主题 -->
     <style name="Theme.PasswordManager.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">?attr/colorPrimary</item>

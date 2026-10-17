@@ -22,7 +22,7 @@
             app:titleTextColor="@android:color/white"
             app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light" />
 
-        <!-- ������ -->
+        <!-- 搜索框 -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilSearch"
             android:layout_width="match_parent"
@@ -58,7 +58,7 @@
         android:layout_weight="1"
         android:background="@color/background">
 
-        <!-- �����б� -->
+        <!-- 密码列表 -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvPasswords"
             android:layout_width="match_parent"
@@ -66,7 +66,7 @@
             android:padding="16dp"
             android:clipToPadding="false" />
 
-        <!-- ��״̬��ʾ -->
+        <!-- 空状态提示 -->
         <TextView
             android:id="@+id/tvEmpty"
             android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
             android:textSize="16sp"
             android:visibility="gone" />
 
-        <!-- ���Ӱ�ť -->
+        <!-- 添加按钮 -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabAdd"
             android:layout_width="wrap_content"

@@ -130,7 +130,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- ������������ʾ����� -->
+        <!-- 新增：密码提示输入框 -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilPasswordHint"
             android:layout_width="0dp"
